@@ -1,13 +1,17 @@
 package com.example.bluechat
 
+import android.annotation.SuppressLint
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothServerSocket
 import android.bluetooth.BluetoothSocket
 import android.util.Log
 import java.io.IOException
+import java.util.UUID
 
+@SuppressLint("MissingPermission")
 class BluetoothServer(
     adapter: BluetoothAdapter,
+    private val uuid: UUID,
     private val onConnected: (BluetoothSocket) -> Unit
 ) : Thread() {
 
@@ -15,7 +19,7 @@ class BluetoothServer(
         try {
             adapter.listenUsingRfcommWithServiceRecord(
                 Constants.APP_NAME,
-                Constants.CHAT_UUID
+                uuid
             )
         } catch (e: SecurityException) {
             Log.e("BluetoothServer", "Failed to listen for connections", e)

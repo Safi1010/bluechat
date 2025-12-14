@@ -23,10 +23,12 @@
             android:layout_height="wrap_content"
             android:background="@drawable/bg_dashboard_card"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:padding="24dp">
 
 
             <TextView
+                android:id="@+id/txtAppTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BlueChat"
@@ -87,7 +89,7 @@
                 android:gravity="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:layout_marginBottom="9dp"
+                android:layout_marginBottom="24dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp">
 
@@ -106,6 +108,18 @@
                     android:textStyle="bold"
                     android:textColor="@color/text_main"/>
             </LinearLayout>
+            
+            <TextView
+                android:id="@+id/btnHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Chat History"
+                android:textColor="@color/accent"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"/>
 
 
         </LinearLayout>
