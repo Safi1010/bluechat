@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BlueChat" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@color/bg_dark</item>
+    <item name="colorPrimary">@color/accent</item>
+    <item name="android:textColorPrimary">@color/text_main</item>
+</style>
+
+
+
+</resources>
