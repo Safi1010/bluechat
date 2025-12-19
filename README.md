@@ -1,1 +1,45 @@
-# bluechat
+ BlueChat 📡
+
+Bluetooth-based Chat Application for Android  
+*No Internet Required — Communicate directly with nearby devices via Bluetooth*
+
+
+
+ 📌 Project Overview
+
+**BlueChat** is an Android application that enables two devices to communicate through **Bluetooth** without an internet connection. The app uses the Android Bluetooth APIs to **discover devices, pair, establish a connection, and exchange text messages** in real time — perfect for short-range chatting. :contentReference[oaicite:1]{index=1}
+
+This is useful in:
+- Areas with limited or no internet
+- Local communication between nearby users
+- Bluetooth fundamentals learning and practice
+
+---
+
+ 🚀 Features
+
+✔ Scan and list nearby Bluetooth devices  
+✔ Pair and connect with another device  
+✔ Real-time text messaging between devices  
+✔ Simple, intuitive user interface  
+✔ Works without Wi-Fi or mobile data  
+
+> *Note:* App requires Bluetooth to be enabled on both devices. :contentReference[oaicite:2]{index=2}
+
+---
+
+ 🧱 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Android Studio | Development environment |
+| Android Bluetooth API | Device discovery & connection |
+| Java/Kotlin | Application logic |
+| XML | UI layouts |
+| Gradle | Build system |
+
+---
+
+
+![Chat Screen](screenshots/chat.png)
+
