@@ -57,7 +57,6 @@ XML	UI design
 Gradle	Build & dependency management
 📷 Screenshots
 
-Add screenshots in a folder named screenshots/ and update names if needed:
 Dashboard Screen
 ![WhatsApp Image 2025-12-19 at 6 51 28 PM](https://github.com/user-attachments/assets/1275c21b-9a74-4f41-9807-8399477436f1)
 Host screen
@@ -128,6 +127,6 @@ bluechat/
 └── README.md
 
 👨‍👩‍👧‍👦 Project Members: 
-Saif ul Islam 
+Saif ul Islam, 
 Muhammad Huzefa 
 ---
