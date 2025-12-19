@@ -127,7 +127,7 @@ bluechat/
 ├── build.gradle
 └── README.md
 
-👨‍👩‍👧‍👦 Project Members
+👨‍👩‍👧‍👦 Project Members: 
 Saif ul Islam 
 Muhammad Huzefa 
 ---
