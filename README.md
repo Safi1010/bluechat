@@ -55,11 +55,16 @@ QR Code Generator & Scanner	Quick Host–Join connection
 Java / Kotlin	Application logic
 XML	UI design
 Gradle	Build & dependency management
+
+
 📷 Screenshots
 
 Dashboard Screen
+
 ![WhatsApp Image 2025-12-19 at 6 51 28 PM](https://github.com/user-attachments/assets/1275c21b-9a74-4f41-9807-8399477436f1)
+
 Host screen
+
 ![WhatsApp Image 2025-12-19 at 6 51 28 PM (1)](https://github.com/user-attachments/assets/1083ae39-9062-4af1-a5dd-b0870f978c94)
 
 
